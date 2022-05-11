@@ -95,12 +95,13 @@ struct ds3231_raw_alarm1_t
     /* Alarm #1 Hours - 09h */
     uint8_t hours:4;
     uint8_t hours10:2;
-    uint8_t a1m3:2;
+    uint8_t unused1:1;
+    uint8_t a1m3:1;
 
     /* Alarm #1 Date - 0Ah */
     uint8_t date:4;
     uint8_t date10:2;
-    uint8_t unused1:1;
+    uint8_t unused2:1;
     uint8_t a1m4:1;
 
 } __attribute__( ( packed ) );
@@ -117,13 +118,14 @@ struct ds3231_raw_alarm2_t
 
     /* Alarm #2 Hours - 0Ch */
     uint8_t hours:4;
-    uint8_t hours10:3;
-    uint8_t a2m3:2;
+    uint8_t hours10:2;
+    uint8_t unused1:1;
+    uint8_t a2m3:1;
 
     /* Alarm #2 Date - 0Dh */
     uint8_t date:4;
     uint8_t date10:2;
-    uint8_t unused1:1;
+    uint8_t unused2:1;
     uint8_t a2m4:1;
 
 } __attribute__( ( packed ) );
