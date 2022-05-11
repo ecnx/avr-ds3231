@@ -1,5 +1,5 @@
 # avr-ds3231
-DS3231 Library for AVR Atmega328
+DS3231 Library for AVR Atmega328p
 
 Depends on https://github.com/ecnx/avr-i2c
 
