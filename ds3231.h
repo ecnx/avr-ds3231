@@ -183,22 +183,22 @@ int8_t ds3231_write_clock ( const struct ds3231_clock_t *clock );
 /**
  * Read RTC Alarm #1 Data
  */
-int8_t ds3231_read_alarm1 ( struct ds3231_alarm_t *alarm1 );
+int8_t ds3231_read_alarm1 ( struct ds3231_alarm_t *alarm );
 
 /**
  * Write RTC Alarm #1 Data
  */
-int8_t ds3231_write_alarm1 ( const struct ds3231_alarm_t *alarm1 );
+int8_t ds3231_write_alarm1 ( const struct ds3231_alarm_t *alarm );
 
 /**
  * Read RTC Alarm #2 Data
  */
-int8_t ds3231_read_alarm2 ( struct ds3231_alarm_t *alarm2 );
+int8_t ds3231_read_alarm2 ( struct ds3231_alarm_t *alarm );
 
 /**
  * Write RTC Alarm #2 Data
  */
-int8_t ds3231_write_alarm2 ( const struct ds3231_alarm_t *alarm2 );
+int8_t ds3231_write_alarm2 ( const struct ds3231_alarm_t *alarm );
 
 /**
  * Read RTC Control Data
