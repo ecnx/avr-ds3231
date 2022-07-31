@@ -2,8 +2,8 @@
  * DS3231 Library for AVR Devices
  * ------------------------------------------------------------------ */
 
-#ifndef DS3231_H
-#define DS3231_H
+#ifndef DS3231_LIBRARY_H
+#define DS3231_LIBRARY_H
 
 /**
  * Note: Bitfields order must be reversed.
